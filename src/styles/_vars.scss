@@ -1,0 +1,42 @@
+// !COLORS
+$white: #fff;
+$black: #121212;
+$black-def: #000;
+$gray: #999999;
+$gray-light: #EEEEEE;
+$bg-nav: #111518;
+$green: #0EC261;
+$bg-opacity:  #151B1FCF;
+// react colors
+$react-color: #61dafb;
+$react-bg-color: #282c34;
+$bg-table: blueviolet;
+
+/* btn */
+$green-def: linear-gradient(90deg, #0EC261 2.61%, #039F67 112.6%);
+$green-hover: linear-gradient(90deg, #0B934A 2.61%, #026E47 112.6%);
+$green-active: linear-gradient(90deg, #076432 2.61%, #013C27 112.6%);
+$green-select: linear-gradient(90deg, #0B934A 2.61%, #026E47 112.6%);
+$green-load:linear-gradient(90deg, #0EC261 2.61%, #039F67 112.6%);
+
+/* color slide */
+$btn-insurance: linear-gradient(90deg, #132949 0%, #0C7B67 100%);
+$btn-delete: linear-gradient(90deg, #744714 0%, #fc096e 100%);
+$btn-edit: linear-gradient(90deg, #3d1879 0%, #e98717 100%);
+$btn-view: linear-gradient(90deg, #157966 0%, #436bee 100%);
+
+/* bg slide fade */
+$fade:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+
+// !FONTS
+$font-family-Roboto: "Roboto", sans-serif;
+
+// !SIZE
+$maxWidth: 1920;
+
+// !BREACKPOINTS
+$maxWidthContainer: 1300;
+
+
+// !Transition
+$transition: 0.3s all;

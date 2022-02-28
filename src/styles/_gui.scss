@@ -1,0 +1,39 @@
+.btn{
+    width: 100%;
+    min-height: 20px;
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    
+    &-add{
+        min-height: 20px;
+        background:$green;
+        &:hover{
+            background:$green-hover;
+
+        }
+        &:active{
+            background:$green-active;
+        }
+    }
+    &-view{
+        background:$btn-view;
+        &:hover{
+            opacity: 0.7;
+        }        
+    }
+    &-edit{        
+        background:$btn-edit;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+    &-delete{
+        background:$btn-delete;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+  
+}
+

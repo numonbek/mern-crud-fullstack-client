@@ -1,0 +1,28 @@
+.form{
+    width: 100%;
+    max-width: 750px;
+    & .input{
+        margin-bottom: 15px;
+    }
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    text-align: end;   
+    flex-direction: row;
+    align-items: center;
+    &-span{
+        width: 30%;
+        text-align: end;
+        padding-right: 15px;
+    }
+    &-inp{
+        width: 70%;
+    }
+    &-buttons{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  
+}

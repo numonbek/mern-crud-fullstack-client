@@ -1,0 +1,21 @@
+// !MAIN
+@import './libs-style/normalize';
+@import "./fonts";
+@import "./mixins";
+@import "./vars";
+@import './reset';
+@import './gui';
+
+
+// !GLOBAL
+@import "./global";
+
+// !COMPONENTS
+@import './components/home/home';
+@import './components/form/form';
+@import './components/addeditpage/addeditpage';
+@import './components/card/card';
+@import './components/view/view';
+
+// !MEDIA
+@import "./media";

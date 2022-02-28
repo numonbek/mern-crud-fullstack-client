@@ -1,0 +1,27 @@
+.card{
+    max-width: 50vmax;
+    margin: 0 auto;
+    &-header{
+        padding: 15px 0;
+    }
+    &-block{
+        width: 100%;
+        display: flex;
+
+        min-height: 40px;
+        align-items: center;
+        padding: 10px 0;
+        flex-direction: row;
+        &>strong{
+            width: 30%;
+            text-align: end;
+            padding-right: 15px;
+        }
+        &>span{
+            width: 70%;
+        }
+    }
+    .btn{
+        margin: 15px 0;
+    }
+}
