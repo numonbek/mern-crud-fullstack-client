@@ -6,7 +6,7 @@ const View = () => {
   const [user, setUser] = React.useState({});
   const { id } = useParams();
   React.useEffect(() => {
-    axios.get(`/api/get/${id}`).then((resp) => setUser({ ...resp.data[0] }));
+    axios.get(`https://doxker.na4u.ru/api/get/${id}`).then((resp) => setUser({ ...resp.data[0] }));
   }, [id]);
   return (
     <div className="view">

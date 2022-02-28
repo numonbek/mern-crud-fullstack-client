@@ -7,16 +7,15 @@ import * as uuid from 'uuid';
 const Home = () => {
   const [data, setData] = React.useState([]);
   const loadData = async () => {
-    const response = await axios.get('/api/get');
+    const response = await axios.get('https://doxker.na4u.ru/api/get');
     setData(response.data);
   };
   React.useEffect(() => {
-    axios.get('https://doxker.na4u.ru/api/get').then((data) => console.log(data));
     loadData();
   }, []);
   const deleteContact = (id) => {
     if (window.confirm('Are you sure that you wanted to delete that contact ?')) {
-      axios.delete(`/api/remove/${id}`);
+      axios.delete(`https://doxker.na4u.ru/api/remove/${id}`);
       toast.success('Contact Deleted Sucessfully');
       setTimeout(() => loadData(), 500);
     }

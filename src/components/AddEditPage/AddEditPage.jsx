@@ -19,7 +19,7 @@ const AddEditPage = () => {
   const { id } = useParams();
 
   React.useEffect(() => {
-    axios.get(`/api/get/${id}`).then((resp) => setState({ ...resp.data[0] }));
+    axios.get(`https://doxker.na4u.ru/api/get/${id}`).then((resp) => setState({ ...resp.data[0] }));
   }, [id]);
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -29,7 +29,7 @@ const AddEditPage = () => {
     } else {
       if (!id) {
         axios
-          .post('/api/post', {
+          .post('https://doxker.na4u.ru/api/post', {
             user,
             userNumber,
             callNumber,
@@ -45,7 +45,7 @@ const AddEditPage = () => {
         toast.success('Contact Added Sucessfully');
       } else {
         axios
-          .put(`/api/update/${id}`, {
+          .put(`https://doxker.na4u.ru/api/update/${id}`, {
             user,
             userNumber,
             callNumber,
