@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mern-crud-fullstack-client/static/css/main.2415e633.css",
+    "main.js": "/mern-crud-fullstack-client/static/js/main.2e570c0f.js",
+    "static/media/Roboto-Medium.ttf": "/mern-crud-fullstack-client/static/media/Roboto-Medium.7429a63c09f79a1760b0.ttf",
+    "static/media/Roboto-Regular.ttf": "/mern-crud-fullstack-client/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/Roboto-Bold.ttf": "/mern-crud-fullstack-client/static/media/Roboto-Bold.75371f53f06181df75f1.ttf",
+    "static/media/Roboto-Light.ttf": "/mern-crud-fullstack-client/static/media/Roboto-Light.8be2d1487420548b3b8d.ttf",
+    "index.html": "/mern-crud-fullstack-client/index.html",
+    "main.2415e633.css.map": "/mern-crud-fullstack-client/static/css/main.2415e633.css.map",
+    "main.2e570c0f.js.map": "/mern-crud-fullstack-client/static/js/main.2e570c0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2415e633.css",
+    "static/js/main.2e570c0f.js"
+  ]
+}
