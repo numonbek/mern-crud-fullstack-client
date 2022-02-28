@@ -3,7 +3,6 @@
   "homepage": "https://numonbek.github.io/mern-crud-fullstack-client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://doxker.na4u.ru/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
