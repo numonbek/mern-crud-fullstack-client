@@ -60,7 +60,7 @@ const AddEditPage = () => {
           .catch((err) => toast.error(err.response.data));
         toast.success('Contact Updated Sucessfully');
       }
-      setTimeout(() => history('/'), 500);
+      setTimeout(() => history('/mern-crud-fullstack-client/'), 500);
     }
   };
 

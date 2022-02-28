@@ -11,6 +11,7 @@ const Home = () => {
     setData(response.data);
   };
   React.useEffect(() => {
+    axios.get('/api/get').then((data) => console.log(data));
     loadData();
   }, []);
   const deleteContact = (id) => {
