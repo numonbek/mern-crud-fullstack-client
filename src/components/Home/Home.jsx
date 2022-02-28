@@ -22,7 +22,7 @@ const Home = () => {
   };
   return (
     <div>
-      <Link to="/addContact">
+      <Link to="/mern-crud-fullstack-client/addContact">
         <div className="add-call">
           <button className="btn btn-add">Add Call Information</button>
         </div>
