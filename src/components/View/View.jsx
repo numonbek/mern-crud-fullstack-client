@@ -40,7 +40,7 @@ const View = () => {
             <span>{user.cost}</span>
           </div>
         </div>
-        <Link to="/">
+        <Link to="/mern-crud-fullstack-client/">
           <div className="btn btn-edit">Go Back</div>
         </Link>
       </div>

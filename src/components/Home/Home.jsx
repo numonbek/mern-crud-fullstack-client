@@ -52,15 +52,15 @@ const Home = () => {
                 <td className="body__item">{item.operator}</td>
                 <td className="body__item">{item.cost}</td>
                 <td className="body__item grid">
-                  <Link to={`/update/${item.id}`}>
+                  <Link to={`/mern-crud-fullstack-client/update/${item.id}`}>
                     <button className="btn btn-edit">Edit</button>
                   </Link>
-                  <Link to="/">
+                  <Link to="/mern-crud-fullstack-client/">
                     <button className="btn btn-delete" onClick={() => deleteContact(item.id)}>
                       Delete
                     </button>
                   </Link>
-                  <Link to={`/view/${item.id}`}>
+                  <Link to={`/mern-crud-fullstack-client/view/${item.id}`}>
                     <button className="btn btn-view">View</button>
                   </Link>
                 </td>

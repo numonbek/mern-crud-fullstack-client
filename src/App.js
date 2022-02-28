@@ -9,10 +9,10 @@ function App() {
     <div className="App App-header">
       <ToastContainer position="top-center" />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/addContact" element={<AddEditPage />} />
-        <Route path="/update/:id" element={<AddEditPage />} />
-        <Route path="/view/:id" element={<View />} />
+        <Route path="/mern-crud-fullstack-client/" element={<Home />} />
+        <Route path="/mern-crud-fullstack-client/addContact" element={<AddEditPage />} />
+        <Route path="/mern-crud-fullstack-client/update/:id" element={<AddEditPage />} />
+        <Route path="/mern-crud-fullstack-client/view/:id" element={<View />} />
       </Routes>
     </div>
   );

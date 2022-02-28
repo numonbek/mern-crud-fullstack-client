@@ -167,7 +167,7 @@ const AddEditPage = () => {
 
           <span className="input-buttons">
             <input type="submit" className="btn btn-add" value={id ? 'Update' : 'Save'} />
-            <Link to="/">
+            <Link to="/mern-crud-fullstack-client/">
               <button className="btn btn-edit">Go Back</button>
             </Link>
           </span>
